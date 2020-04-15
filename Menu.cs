@@ -8,5 +8,23 @@ namespace Lab
 {
     class Menu
     {
+        int menu()
+        {
+            Console.WriteLine("Введите действие: *, /, +, -");
+            string input = Console.ReadLine();
+            switch (input)
+            {
+                case "*":
+                    break;
+                case "/":
+                    break;
+                case "+":
+                    break;
+                case "-":
+                    break;
+                default:
+                    break;
+            }
+        }
     }
 }
