@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Lab
 {
-    class Menu
+    public class Menu
     {
-        int menu()
+        public bool menu()
         {
             Console.WriteLine("Введите действие: *, /, +, -");
             string input = Console.ReadLine();
@@ -23,8 +23,9 @@ namespace Lab
                 case "-":
                     break;
                 default:
-                    break;
+                    return false;
             }
+            return true;
         }
     }
 }
